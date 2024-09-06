@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alphisar Portfolio</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 1rem;
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    section {
+      padding: 2rem;
+      min-height: 100vh;
+      margin-top: 70px; /* Offset for fixed nav */
+    }
+
+    /* Section headings */
+    section h2 {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cs50">CS50 Course</a></li>
+      <li><a href="#swift">Develop in Swift</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my portfolio website!</p>
+  </section>
+
+  <section id="cs50">
+    <h2>CS50 Course</h2>
+    <p>Details and projects from my CS50 course...</p>
+  </section>
+
+  <section id="swift">
+    <h2>Develop in Swift</h2>
+    <p>Content and information on my Swift development journey...</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Here are some of the projects I have worked on...</p>
+  </section>
+
+</body>
+</html>
 
